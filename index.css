@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+    /* background: yellow; */
+}
+/* header{
+    display: inline;
+    display: flexbox;
+}   */
+
+/* makes the nav bar horizontal and puts on the right of screen*/
+.menu {
+    display: flex;
+    justify-content: flex-end;   
+    gap: 10px; 
+}
+ /* adds space between list */
+li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+} 
+/* when the webpage hits 640px the nav bar changes to columns */
+ @media (max-width:640px){
+    ul{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+ }
+ 
