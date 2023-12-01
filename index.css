@@ -1,6 +1,4 @@
- /* *{
-    background-color: blue;
- } */
+ 
  main{
     background-color: rgb(126, 118, 118);
     margin: 10px 10px;
@@ -38,7 +36,10 @@ header{
     box-sizing: border-box;
     box-shadow: 5px 5px 10px 1px #000000;
 }  
-
+/* figure{
+    display:flex;
+    border:2px solid white;
+} */
 /* makes the nav bar horizontal and puts on the right of screen*/
 .menu {
     display: flex;  
@@ -52,22 +53,23 @@ li{
     padding: 5px;
     list-style: none;
 } 
-
-.project-img{
+/*sets up spaccing and wrapping of images*/
+.project-img {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
     gap: 20px;
-
-    
 }
+ 
+ 
+
 footer{
     display: flex;
     justify-content: center;
     align-self: end;
 }
 
-img{
+img {
     max-width: 25%;
     max-height: auto;
 }
